@@ -1,0 +1,13 @@
+%Chk=e4_06_cn+_cbs
+# ub3lyp/6-311+g(2d,p) stable=opt
+
+cn+ singlet diradical
+
+1,1
+  C                                                 0.000000000000      0.000000000000     -0.619406513457
+  N                                                 0.000000000000      0.000000000000      0.530919868677
+
+--Link1--
+%Chk=e4_06_cn+_cbs
+# cbs-qb3 geom=allcheck guess=read
+

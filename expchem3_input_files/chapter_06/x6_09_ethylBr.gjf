@@ -1,0 +1,32 @@
+%Chk=x6_09_ethylBr
+# OPT FREQ APFd 6-31+G(d) SCRF(SMD,Solvent=DMSO) Geom=Connectivity
+
+ethyl bromide in DMSO (small basis set pre-opt)
+
+0 1
+ C                  0.58280000   -2.07979300    0.00000000
+ C                 -0.61188600   -1.12907700    0.00000000
+ Br                 0.00000000    0.81936600    0.00000000
+ H                  1.20678800   -1.93611400    0.88841000
+ H                  1.20678800   -1.93611400   -0.88841000
+ H                  0.21753700   -3.11801300    0.00000000
+ H                 -1.22829900   -1.21717400    0.89662100
+ H                 -1.22829900   -1.21717400   -0.89662100
+
+ 1 2 1.0 4 1.0 5 1.0 6 1.0
+ 2 7 1.0 8 1.0
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+
+--link1--
+%Chk=x6_09_ethylBr
+# OPT=ReadFC FREQ APFd 6-311+G(2d,p) SCRF(SMD,Solvent=DMSO) Geom=Checkpoint Guess=Read Int(UltraFine,Acc2E=12)
+
+ethyl bromide in DMSO
+
+0 1
+

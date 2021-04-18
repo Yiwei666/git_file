@@ -1,0 +1,17 @@
+%Chk=x5_04_cl-
+# apfd/6-311+g(2d,p) int=(ultrafine,acc2e=12) freq
+
+Cl ion in gas phase
+
+-1 1
+ Cl      0.0 0.0 0.0
+
+--link1--
+%Chk=x5_04_cl-
+# apfd/6-311+g(2d,p) int=(ultrafine,acc2e=12) scrf(smd,solvent=water) freq
+
+Cl ion in water
+
+-1 1
+ Cl     0.0 0.0 0.0
+

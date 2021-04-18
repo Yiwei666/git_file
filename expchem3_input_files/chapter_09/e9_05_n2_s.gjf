@@ -1,0 +1,20 @@
+%Chk=e9_05_n2_s
+# opt rAPFd/6-311+g(2d,p) geom=connectivity Int=(Ultrafine,Acc2E=12)
+
+singlet N2 neutral
+
+0 1
+ N                  0.00000000    0.00000000    0.54600000
+ N                  0.00000000    0.00000000   -0.54600000
+
+ 1 2 3.0
+ 2
+
+--link1--
+%Chk=e9_05_n2_s
+# stable rAPFd/6-311+g(2d,p) geom=checkpoint guess=read Int=(Ultrafine,Acc2E=12)
+
+singlet N2 neutral
+
+0 1
+

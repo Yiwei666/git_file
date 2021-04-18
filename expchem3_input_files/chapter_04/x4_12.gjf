@@ -1,0 +1,13 @@
+%Chk=x4_12
+# opt freq=anharm APFD/6-311+g(2d,p)  Int=(UltraFine,Acc2E=12)
+
+Formaldehyde IR Spectrum: Anharmonic
+
+0 1
+C        0.000000    0.000000   -0.001803
+O        0.000000    0.000000    1.198472
+H        0.940413    0.000000   -0.586903
+H       -0.940413    0.000000   -0.586903
+
+
+

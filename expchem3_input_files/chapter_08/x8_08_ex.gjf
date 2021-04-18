@@ -1,0 +1,8 @@
+%Chk=x8_08_ex
+# Opt FREQ=SaveNormalModes TD(Read,root=1) CAM-B3LYP TZVP SCRF(Solvent=cyclohexane) Int=(Ultrafine,Acc2E=12)
+  Geom=Check Guess=Read
+
+all trans Ph-CH-CH-CH-CH-CH-CH-CH-CH-Ph CAM-B3LYP/TZVP TD opt freq
+
+ 0,1
+

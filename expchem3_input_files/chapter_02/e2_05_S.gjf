@@ -1,0 +1,24 @@
+%Chk=e2_05_S
+# APFD/6-311+g(2d,p) geom=connectivity stable=opt guess=mix  Int=(UltraFine,Acc2E=12)
+
+Heterosubstituted Allyl Radicals: R=S
+
+0 2
+ C                  0.00000000    0.70517099    0.00000000
+ C                  1.27957120    1.07144018    0.00000000
+ H                 -0.78936780    1.45626991    0.00000000
+ H                  1.53989135    2.12187287    0.00000000
+ H                  2.09151364    0.35546473    0.00000000
+ S                 -0.65746652   -0.91207966    0.00000000
+
+ 1 2 2.0 3 1.0 6 1.0
+ 2 4 1.0 5 1.0
+ 3
+ 4
+ 5
+ 6
+
+--link1--
+%Chk=e2_05_S
+# APFD/6-311+g(2d,p) guess=read pop=savebiortho geom=allcheck Int=(UltraFine,Acc2E=12)
+

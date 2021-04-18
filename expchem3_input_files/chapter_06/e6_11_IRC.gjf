@@ -1,0 +1,8 @@
+%oldchk=e6_11_TS
+%chk=e6_11_IRC
+# IRC(RCFC,MaxPoints=30,Step=20,Recorrect=Never,Phase=(4,6)) APFd 6-311+g(2d,p) SCRF(SMD,Solvent=Acetonitrile) Int(Ultrafine,Acc2E=12) Geom=Checkpoint 
+
+IRC for SN2 reaction: F- + methyl chloride
+
+ -1,1
+

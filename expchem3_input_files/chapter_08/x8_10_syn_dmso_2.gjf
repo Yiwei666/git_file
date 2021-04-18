@@ -1,0 +1,24 @@
+%oldchk=x8_10_syn_dmso_1
+%chk=x8_10_syn_dmso_2
+# APFD/6-311+G(2d,p) SCRF=(Solvent=DMSO,Read) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/syn/dmso: prepare for state-specific non-eq solvation
+by saving the solvent reaction field from the ground state
+
+0 1
+
+NonEq=write
+
+--link1--
+%chk=x8_10_syn_dmso_2
+# APFD/6-311+G(2d,p) TD(NStates=6,Root=1) 
+  SCRF=(Solvent=DMSO,ExternalIteration,Read)
+  Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/syn/dmso: read solvent reaction field from ground state and
+compute energy of the first excited with the EI method and non-equilibrium solvation
+
+0 1
+
+NonEq=read
+

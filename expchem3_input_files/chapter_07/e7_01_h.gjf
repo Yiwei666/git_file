@@ -1,0 +1,15 @@
+%Chk=e7_01_h
+# opt freq apfd/6-311+g(2d,p) Int=(UltraFine,Acc2E=12)
+
+Acetylene 
+
+0 1
+ C                 -2.64026396    1.30363034    0.00000000
+ H                 -3.71026396    1.30363034    0.00000000
+ C                 -1.43906396    1.30363034    0.00000000
+ H                 -0.36906396    1.30363034    0.00000000
+
+--Link1--
+%Chk=e7_01_h
+# APFD/6-311+G(2d,p) NMR Guess=Read Geom=Allcheck Int=(UltraFine,Acc2E=12)
+

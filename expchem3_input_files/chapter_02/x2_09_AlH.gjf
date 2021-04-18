@@ -1,0 +1,10 @@
+%Chk=x2_09_AlH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+AlH Opt Freq
+
+0 1
+ Al                -1.24555151    0.69395017    0.00000000
+ H                 -2.02055151   -0.64838921    0.00000000
+
+

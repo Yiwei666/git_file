@@ -1,0 +1,12 @@
+%OldChk=x8_07_gs
+%Chk=x8_07_fc
+# FREQ(ReadFC,FC,ReadFCHT) Geom=Checkpoint NOSYMM
+
+acro FCHT
+
+0 1
+
+SpecHwHm=500 InpDEner=0.118
+
+x8_07_ex.chk
+

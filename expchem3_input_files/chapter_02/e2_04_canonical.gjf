@@ -1,0 +1,12 @@
+%Chk=e2_04_canonical
+# opt freq APFD/6-311+g(2d,p) geom=connectivity Int=(UltraFine,Acc2E=12)
+
+FeO+ quartet: opt+freq canonical orbitals
+
+1 4
+ O                 -2.25146203    0.47758284    0.00000000
+ Fe                -3.85306203    0.47758284    0.00000000
+
+ 1 2 2.0
+ 2
+

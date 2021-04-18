@@ -1,0 +1,12 @@
+%Chk=e9_05_n2_t
+# opt uAPFd/6-311+g(2d,p) geom=connectivity Int=(Ultrafine,Acc2E=12)
+
+triplet N2 neutral
+
+0 3
+ N                  0.00000000    0.00000000    0.54600000
+ N                  0.00000000    0.00000000   -0.54600000
+
+ 1 2 3.0
+ 2
+

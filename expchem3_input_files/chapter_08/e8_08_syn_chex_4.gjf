@@ -1,0 +1,23 @@
+%oldchk=e8_08_syn_chex_3
+%chk=e8_08_syn_chex_4
+# TD(root=1,read,nstates=6) APFD/6-311+G(2d,p) SCRF(Solvent=cyclohexane,ExternalIteration,Read) 
+  Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/syn/chex: prepare for non-eq solvation emission
+by saving the solvent reaction field from the excited state using the EI method
+
+0 1
+
+NonEq=write
+
+--link1--
+%chk=e8_08_syn_chex_4
+# APFD/6-311+G(2d,p) SCRF(Solvent=cyclohexane,Read) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/syn/chex: read solvent reaction field from excited state and 
+compute energy of the ground state with non-eq solvation
+
+0 1
+
+NonEq=read
+

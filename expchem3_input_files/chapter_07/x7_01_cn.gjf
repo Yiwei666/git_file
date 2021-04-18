@@ -1,0 +1,22 @@
+%Chk=x7_01_cn
+# opt freq 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12)
+
+CHCCN
+
+0 1
+ C                  0.00000    0.00000    0.60025694
+ C                  0.00000    0.00000   -0.60094306
+ H                  0.00000    0.00000   -1.67094306
+ C                 -0.00000   -0.00000    2.14025694
+ N                 -0.00000   -0.00000    3.28685694
+
+ 1 2 3.0 4 1.0
+ 2 3 1.0
+ 3
+ 4 5 3.0
+ 5
+
+--Link1--
+%Chk=x7_01_cn
+# APFD/6-311+G(2d,p) NMR Guess=Read Geom=Allcheck Int=(UltraFine,Acc2E=12)
+

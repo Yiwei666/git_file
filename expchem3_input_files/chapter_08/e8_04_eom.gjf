@@ -1,0 +1,24 @@
+%OldChk=e8_04_td
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Singlets)/6-311+G(2d,p) Geom=Allcheck Guess=Read Int=(Acc2E=12)
+
+--link1--
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Triplets)/6-311+G(2d,p) Geom=Allcheck Guess=Read Int=(Acc2E=12)
+
+--link1--
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Singlets)/cc-pVTZ Geom=Allcheck Guess=Read Int=(Acc2E=12)
+
+--link1--
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Triplets)/cc-pVTZ Geom=Allcheck Guess=Read Int=(Acc2E=12)
+
+--link1--
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Singlets)/aug-cc-pVTZ Geom=Allcheck Guess=Read Int=(Acc2E=12)
+
+--link1--
+%Chk=e8_04_eom
+# EOMCCSD(Nstates=5,Triplets)/aug-cc-pVTZ Geom=Allcheck Guess=Read Int=(Acc2E=12)
+

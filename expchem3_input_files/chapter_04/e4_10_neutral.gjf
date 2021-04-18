@@ -1,0 +1,15 @@
+%Chk=e4_10_neutral
+# apfd/6-311+G(2d,p) opt freq Int=(Ultrafine,Acc2E=12)
+
+Neutral: CN Radical (2-SG) Opt Freq
+
+     0     2
+  C               0.00000000      0.000000000000      0.002230660503
+  N               0.000000000000      0.000000000000      1.171689949497
+
+--link1--
+%Chk=e4_10_neutral
+# bd/6-31G(d) guess=read geom=allcheck
+
+
+

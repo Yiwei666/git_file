@@ -1,0 +1,10 @@
+%Chk=x2_09_LiH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+LiH Opt Freq
+
+0 1
+ Li                -0.92534987    0.75427682    0.00000000
+ H                 -2.45534987    0.75427682    0.00000000
+
+

@@ -1,0 +1,7 @@
+%chk=e8_08_anti_chex_3
+# TD(Root=1,Read) Opt APFD/6-311+G(2d,p) Freq SCRF(Solvent=cyclohexane) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/anti/chex: TD optimization
+
+0 1
+

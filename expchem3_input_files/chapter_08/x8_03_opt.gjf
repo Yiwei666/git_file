@@ -1,0 +1,18 @@
+%Chk=x8_03_opt
+# APFD/aug-cc-pVTZ freq int=(ultrafine,acc2e=12) 
+
+TiO2 CCSD/aug-cc-pVTZ geometry optimization
+
+0 1
+ Ti                 0.00000000    0.00000000    0.37869300
+ O                  0.00000000    1.37139300   -0.52070300
+ O                  0.00000000   -1.37139300   -0.52070300
+
+ 1 2 1.0 3 1.0
+ 2
+ 3
+
+--link1--
+%chk=x8_03_opt
+# opt=rcfc ccsd/aug-cc-pvtz geom=allcheck guess=read int=(acc2e=12)
+

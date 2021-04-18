@@ -1,0 +1,25 @@
+%Chk=x5_04_nh3
+# opt freq apfd/6-311+g(2d,p) geom=connectivity int=(ultrafine,acc2e=12)
+
+NH3 in gas phase
+
+0 1
+ N                  0.00000000    0.00000000   -0.10000000
+ H                  0.00000000    0.94280904    0.23333333
+ H                  0.81649658   -0.47140452    0.23333333
+ H                 -0.81649658   -0.47140452    0.23333333
+
+ 1 2 1.0 3 1.0 4 1.0
+ 2
+ 3
+ 4
+
+--link1--
+%Chk=x5_04_nh3
+# opt freq apfd/6-311+G(2d,p) scrf=(smd,solvent=water) geom=check guess=read int=(ultrafine,acc2e=12)
+
+NH3 in water
+
+0 1
+
+

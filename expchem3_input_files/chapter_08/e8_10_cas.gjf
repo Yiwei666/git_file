@@ -1,0 +1,4 @@
+%oldchk=e8_10_nbo
+%chk=e8_10_cas
+# cas(6,6)/6-31g(d) guess=read geom=allcheck
+

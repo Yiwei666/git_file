@@ -1,0 +1,20 @@
+%Chk=e4_10_stab=opt
+# apfd/6-311+G(2d,p) stable=opt pop=full 
+
+cn+ singlet diradical
+
+1,1
+  C         0.000000000000      0.000000000000     -0.619406513457
+  N         0.000000000000      0.000000000000      0.530919868677
+
+--link1--
+%Chk=e4_10_stab=opt
+# apfd /6-311+G(2d,p) guess=read opt freq Int=(Ultrafine,Acc2E=12)
+
+--link1--
+%Chk=e4_10_stab=opt
+# bd/6-31G(d) guess=read geom=allcheck
+
+
+
+

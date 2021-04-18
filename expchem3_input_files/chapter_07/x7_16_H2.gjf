@@ -1,0 +1,20 @@
+%Chk=x7_16_H2
+# opt freq=(vcd,vibrot) 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12)
+output=pickett
+
+AsH2
+
+0 2
+ As                -1.96369632    1.45214519    0.11587860
+ H                 -0.65599796    1.45214519    0.87087860
+ H                 -3.27139468    1.45214519    0.87087860
+
+ 1 2 1.0 3 1.0
+ 2
+ 3
+
+--link1--
+%Chk=x7_16_H2
+# APFD/aug-cc-pVTZ Output=Pickett Guess=Read Geom=Allcheck Int=(Grid=399590,FCMod1,DKH,Acc2E=12)
+
+

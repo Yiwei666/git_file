@@ -1,0 +1,30 @@
+%Chk=x4_14_cn
+# APFD/6-311+g(2d,p) opt freq Int=(UltraFine,Acc2E=12) geom=connect
+
+CH3CN Opt Freq
+
+0 1
+ C                 -0.00000001   -0.00006676    0.29729830
+ C                  0.00000003    0.00008983   -1.22215960
+ H                 -0.87412968    0.50456289   -1.55862997
+ H                  0.87412968    0.50455618   -1.55863115
+ H                 -0.00000048   -1.00945881   -1.55858515
+ N                  0.00000005    0.00002876    1.46071630
+
+ 1 2 1.0 6 3.0
+ 2 3 1.0 4 1.0 5 1.0
+ 3
+ 4
+ 5
+ 6
+
+--link1--
+%Chk=x4_14_cn
+# APFD/6-311+g(2d,p) polar=gamma geom=check guess=read Int=(UltraFine,Acc2E=12) cphf=rdfreq
+
+CH3CN Gamma @ std model geom
+
+0 1
+
+514.5nm
+

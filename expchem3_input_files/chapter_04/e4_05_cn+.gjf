@@ -1,0 +1,13 @@
+%Chk=e4_05_cn+
+# UAPFD 6-311+G(2d,p) stable=opt Int=(UltraFine,Acc2E=12)
+
+Cation: CN+
+
+     1     1
+  C 0.000000 0.000000  0.00
+  N 0.000000 0.000000  1.15
+
+--link1--
+%Chk=e4_05_cn+
+# UAPFD 6-311+G(2d,p) guess=read opt freq Int=(UltraFine,Acc2E=12) geom=allcheck
+

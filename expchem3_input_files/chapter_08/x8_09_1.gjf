@@ -1,0 +1,36 @@
+%chk=x8_09_1
+# APFD/6-311+G(2d,p) Opt Freq SCRF=(Solvent=Ethanol) Int=(Ultrafine,Acc2E=12)
+
+Acetaldehyde ground state opt freq
+
+0 1
+C
+C,1,RA
+X,2,1.,1,A
+O,2,RB,3,A,1,180.,0
+X,1,1.,2,90.,3,0.,0
+H,1,R1,2,A1,5,0.,0
+H,1,R23,2,A23,5,B23,0
+H,1,R23,2,A23,5,-B23,0
+H,2,R4,1,A4,3,180.,0
+ 
+RA=1.53643
+RB=1.21718
+R1=1.08516
+R23=1.08688
+R4=1.10433
+A=62.1511
+A1=110.51212
+A23=109.88119
+A4=114.26114
+B23=120.56468
+
+--link1--
+%oldchk=x8_09_1
+%chk=x8_09_3
+# APFD/6-311+G(2d,p) TD(NStates=6) SCRF=(Solvent=Ethanol) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Acetaldehyde: Non-Equilibrium solvation vertical excited states
+
+0 1
+

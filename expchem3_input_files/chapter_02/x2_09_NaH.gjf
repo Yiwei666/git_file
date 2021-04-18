@@ -1,0 +1,10 @@
+%Chk=x2_09_NaH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+NaH Opt Freq
+
+0 1
+ Na                -2.62052862    0.03888025    0.00000000
+ H                 -4.32052862    0.03888025    0.00000000
+
+

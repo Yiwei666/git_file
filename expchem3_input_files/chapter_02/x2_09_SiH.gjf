@@ -1,0 +1,10 @@
+%Chk=x2_09_SiH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+SiH Opt Freq
+
+0 2
+ Si                -2.06405679    1.26334518    0.00000000
+ H                 -3.53405679    1.26334518    0.00000000
+
+

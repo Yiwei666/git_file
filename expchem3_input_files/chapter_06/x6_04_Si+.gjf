@@ -1,0 +1,8 @@
+%chk=x6_04_Si+
+# FREQ APFD 6-311+G(2d,p) Int(UltraFine,Acc2E=12)
+
+Si+ (Use freq keyword just to get translational enthalpy which is +2.5RT)
+
+1 2
+ Si   0.00 0.00 0.00
+

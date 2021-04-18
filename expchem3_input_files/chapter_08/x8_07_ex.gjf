@@ -1,0 +1,7 @@
+%Chk=x8_07_ex
+# OPT FREQ=SaveNormalModes TD(Read,root=1) CAM-B3LYP TZVP Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+acrolein excited state opt freq
+
+0 1
+

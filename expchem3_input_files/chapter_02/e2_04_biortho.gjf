@@ -1,0 +1,12 @@
+%Chk=e2_04_biortho
+# APFD/6-311+g(2d,p) geom=connectivity pop=(biortho,savebiortho) Int=(UltraFine,Acc2E=12)
+
+FeO+ quartet: biorthogonalized orbitals using previously optimized geometry
+
+1 4
+ O                  0.00000000    0.00000000   -1.185754
+ Fe                 0.00000000    0.00000000    0.364850
+
+ 1 2 2.0
+ 2
+

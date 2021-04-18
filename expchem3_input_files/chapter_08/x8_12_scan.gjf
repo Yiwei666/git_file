@@ -1,0 +1,12 @@
+%oldchk=x8_12_ex
+%chk=x8_12_scan
+#P casscf(6,6,nroot=2)/6-31g(d) guess=read geom=check nosymm opt=modredundant
+
+Relaxed PES scan on first singlet excited state (S1) of benzene
+to move closer to the conical intersection region,
+Looking for a puckered ring structure.
+
+0 1
+
+D 1 2 3 6 S 5 7.5
+

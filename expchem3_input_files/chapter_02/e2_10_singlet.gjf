@@ -1,0 +1,12 @@
+%Chk=e2_10_singlet
+# stable APFD/6-311+g(2d,p) geom=connectivity Int=(UltraFine,Acc2E=12)
+
+Stability of O2 singlet
+
+0 1
+ O                 -1.83914572    0.20706022   -2.32357295
+ O                 -3.00074572    0.20706022   -2.32357295
+
+ 1 2 2.0
+ 2
+

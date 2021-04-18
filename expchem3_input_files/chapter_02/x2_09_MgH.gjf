@@ -1,0 +1,10 @@
+%Chk=x2_09_MgH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+MgH Opt Freq
+
+0 2
+ Mg                -0.35587186    0.33807829    0.00000000
+ H                 -2.01587186    0.33807829    0.00000000
+
+

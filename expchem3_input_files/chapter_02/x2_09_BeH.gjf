@@ -1,0 +1,10 @@
+%Chk=x2_09_BeH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+BeH Opt Freq
+
+0 2
+ Be                -2.15396566    1.06531880    0.00000000
+ H                 -3.34396566    1.06531880    0.00000000
+
+

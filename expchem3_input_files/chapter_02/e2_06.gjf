@@ -1,0 +1,16 @@
+%Chk=e2_06
+# APFD/6-311+g(2d,p) opt freq geom=connectivity Int=(UltraFine,Acc2E=12)
+
+Formaldehyde optimization and frequencies
+
+0 1
+ C                  0.00000000    0.00000000   -0.52703800
+ H                  0.00000000    0.94067800   -1.11171200
+ H                  0.00000000   -0.94067800   -1.11171200
+ O                  0.00000000    0.00000000    0.67320700
+
+ 1 2 1.0 3 1.0 4 2.0
+ 2
+ 3
+ 4
+

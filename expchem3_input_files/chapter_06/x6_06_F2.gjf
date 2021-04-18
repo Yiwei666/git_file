@@ -1,0 +1,12 @@
+%Chk=x6_06_F2
+# opt freq APFD/6-311+g(2d,p) geom=connectivity Int=(UltraFine,Acc2E=12)
+
+F2 Opt Freq
+
+0 1
+ F                 -2.89583316    0.20833333    0.00000000
+ F                 -4.05583316    0.20833333    0.00000000
+
+ 1 2 1.0
+ 2
+

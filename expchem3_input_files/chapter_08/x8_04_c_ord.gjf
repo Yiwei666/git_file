@@ -1,0 +1,10 @@
+%OldChk=x8_04_c_vcd
+%Chk=x8_04_c_ord
+# Polar=OptRot CPHF=RdFreq apfd/6-311+g(2d,p) geom=check guess=read scrf(solvent=chloroform) Int=(Ultrafine,Acc2E=12)
+
+Plumericin conformation 1c: ORD
+
+0 1
+
+589.3nm
+

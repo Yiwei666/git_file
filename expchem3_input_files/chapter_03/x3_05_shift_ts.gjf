@@ -1,0 +1,74 @@
+%chk=x3_05_shift_ts
+# opt=(calcfc,ts) freq hf/6-31g(d) geom=connectivity
+
+Transition structure for the proton shift: Me4-Allyl+ -> Me2-2-Propenyl+
+HF Opt Freq to start. Cs symmetry forced
+
+1 1
+ C                 -1.29449869   -0.03074191    0.00000000
+ C                  0.01179366   -0.02281525    0.00000000
+ C                  1.31809922   -0.01749556    0.00000000
+ C                 -2.09026112   -0.03580713   -1.27745402
+ H                 -2.86915851    0.73482306   -1.24943446
+ H                 -1.45820291    0.14374890   -2.14759306
+ H                 -2.59941347   -0.99719461   -1.41080638
+ C                 -2.09026112   -0.03580713    1.27745402
+ H                 -2.86915851    0.73482306    1.24943446
+ H                 -2.59941347   -0.99719461    1.41080638
+ H                 -1.45820291    0.14374890    2.14759306
+ C                  2.10445896    1.26781077    0.00000000
+ H                  2.75634220    1.32007677    0.87943920
+ H                  2.75634220    1.32007677   -0.87943920
+ H                  1.45265065    2.14189328    0.00000000
+ C                  2.12048310   -1.28710958    0.00000000
+ H                  2.77254357   -1.33141533   -0.87971757
+ H                  2.77254357   -1.33141533    0.87971757
+ H                  1.47974908   -2.16934154    0.00000000
+ H                 -0.64863404    1.17319933    0.00000000
+
+ 1 2 2.0 4 1.0 8 1.0 20 0.5
+ 2 3 2.0 20 0.5
+ 3 12 1.0 16 1.0
+ 4 5 1.0 6 1.0 7 1.0
+ 5
+ 6
+ 7
+ 8 9 1.0 10 1.0 11 1.0
+ 9
+ 10
+ 11
+ 12 13 1.0 14 1.0 15 1.0
+ 13
+ 14
+ 15
+ 16 17 1.0 18 1.0 19 1.0
+ 17
+ 18
+ 19
+ 20
+
+--link1--
+%chk=x3_05_shift_ts
+# opt=(rcfc,nodownhill) apfd/6-311+g(2d,p) geom=(check,modred) guess=read
+int=(ultrafine,acc2e=12)
+
+Transition structure for the proton shift: Me4-Allyl+ -> Me2-2-Propenyl+
+Standard model constrained opt: freeze coordinates related to imaginary freq
+
+1 1
+
+B 2 20 F
+B 3 20 F
+
+--link1--
+%chk=x3_05_shift_ts
+# opt=(calcfc,ts) freq apfd/6-311+g(2d,p) geom=(check,modred) guess=read
+int=(ultrafine,acc2e=12)
+
+Transition structure for the proton shift: Me4-Allyl+ -> Me2-2-Propenyl+
+Standard model full optimization, activating all coordinates
+
+1 1
+
+B * * A
+

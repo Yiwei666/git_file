@@ -1,0 +1,4 @@
+%OldChk=e6_07_ts1
+%Chk=e6_07_irc1_default
+# apfd/6-311+g(2d,p) irc=rcfc geom=allcheck guess=read Int=(Ultrafine,Acc2E=12)
+

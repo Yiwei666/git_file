@@ -1,0 +1,40 @@
+%Chk=e9_01_w
+# opt=tight freq apfd/sdd geom=connectivity int=(ultrafine,acc2e=12) 
+
+WF6 Opt Freq
+
+0 1
+ W                 -0.00000000    0.00000000    0.00000000
+ F                  0.00000000    0.00000000    1.88000000
+ F                  0.00000000    1.88000000    0.00000000
+ F                  1.88000000    0.00000000   -0.00000000
+ F                  0.00000000   -1.88000000   -0.00000000
+ F                 -0.00000000    0.00000000   -1.88000000
+ F                 -1.88000000    0.00000000    0.00000000
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0 6 1.0 7 1.0
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+
+--link1--
+%Chk=e9_01_w
+# opt=(readfc,tight) freq apfd/GenECP geom=allcheck guess=read int=(ultrafine,acc2e=12)
+
+F 0
+6-311+G(2d,p)
+****
+W 0
+MWB60
+****
+
+W 0
+MWB60
+
+--link1--
+%Chk=e9_01_w
+# opt=(readfc,tight) freq apfd/def2tzvpp geom=allcheck guess=read int=(ultrafine,acc2e=12)
+

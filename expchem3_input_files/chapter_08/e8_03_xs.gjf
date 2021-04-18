@@ -1,0 +1,102 @@
+%OldChk=e8_03_gs
+%Chk=e8_03_xs
+# TD(NStates=20,Root=1) APFD 6-311+G(2d,p) Pop=NPA int=(ultrafine,acc2e=12)  geom=allcheck guess=read Density=Current
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state2
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=2) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state3
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=3) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state4
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=4) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state5
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=5) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state6
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=6) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state7
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=7) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state8
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=8) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state9
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=9) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state10
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=10) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state11
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=11) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state12
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=12) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state13
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=13) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state14
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=14) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state15
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=15) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state16
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=16) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state17
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=17) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state18
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=18) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state19
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=19) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+--Link1--
+%OldChk=e8_03_xs
+%Chk=e8_03_state20
+# APFD 6-311+G(2d,p) TD(NStates=20,Read,Root=20) Density=Current Pop=NPA Geom=AllCheck Guess=Read int=(ultrafine,acc2e=12)
+
+
+
+

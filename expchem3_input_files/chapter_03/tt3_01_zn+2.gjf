@@ -1,0 +1,12 @@
+%Chk=tt3_01_zn+2
+# APFD/6-311+g(2d,p) pop=savemixed  Int=(UltraFine,Acc2E=12)
+
+Zn+2
+
+2 1
+ Zn                -0.75234005    0.10403230    0.41979786
+
+--Link1--
+%Chk=tt3_01_zn+2
+# APFD/6-311+G(2d,p) pop=orbitals guess=read geom=allcheck Int=(UltraFine,Acc2E=12)
+

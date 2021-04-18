@@ -1,0 +1,9 @@
+%OldChk=x8_12_gs
+%Chk=x8_12_ex
+# casscf(6,6,NRoot=2)/6-31g(d) guess=read geom=check opt freq 
+
+Optimization+frequency calculation on first singlet excited state (S1) of benzene
+
+0 1
+
+

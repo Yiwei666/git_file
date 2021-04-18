@@ -1,0 +1,11 @@
+%oldchk=x8_12_pr
+%chk=x8_12_irc2
+# casscf(6,6)/6-31g(d) guess=read geom=check irc=(rcfc,recorrect=never,forward,maxpoints=60)
+
+Benzene-Benzvalene photoisomerization.
+First IRC determined that path is symmetric and
+saddle point is just Benzvalene-to-Benzvalene isomerization.
+In this second IRC, we move forward down from the TS towards Benzvalene.
+
+0 1
+

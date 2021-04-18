@@ -1,0 +1,33 @@
+%Chk=x8_07_gs
+# opt freq b3lyp/TZVP geom=connectivity Int=(Ultrafine,Acc2E=12)
+
+Acrolein ground state
+
+0 1
+ C                  0.00000000    0.00000000    0.00000000
+ C                  0.00000000    0.00000000    1.32110000
+ C                  1.26337029    0.00000000    2.08873690
+ O                  1.31669801    0.00000000    3.27734121
+ H                  0.91790657    0.00000000   -0.56317061
+ H                 -0.91038495    0.00000000   -0.57074469
+ H                 -0.90816118    0.00000000    1.89705870
+ H                  2.17658242    0.00000000    1.48507169
+
+ 1 2 2.0 5 1.0 6 1.0
+ 2 3 1.0 7 1.0
+ 3 4 2.0 8 1.0
+ 4
+ 5
+ 6
+ 7
+ 8
+
+--link1--
+%OldChk=x8_07_gs
+%Chk=x8_07_ex
+# CAM-B3LYP TD(Nstates=6) TZVP Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+acrolein excited states
+
+0 1
+

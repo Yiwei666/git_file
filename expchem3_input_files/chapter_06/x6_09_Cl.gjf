@@ -1,0 +1,8 @@
+%Chk=x6_09_Cl
+# FREQ APFd 6-311+G(2d,p) SCRF(SMD,Solvent=DMSO) Int(UltraFine,Acc2E=12)
+
+Chloride ion in DMSO
+
+-1 1
+ Cl
+

@@ -1,0 +1,12 @@
+%Chk=e9_05_n2-2_t
+# opt uAPFd/6-311+g(2d,p) geom=connectivity Int=(Ultrafine,Acc2E=12)
+
+triplet N2 dianion
+
+-2 3
+ N                  0.00000000    0.00000000    0.61600000
+ N                  0.00000000    0.00000000   -0.61600000
+
+ 1 2 2.0
+ 2
+

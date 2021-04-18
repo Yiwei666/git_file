@@ -1,0 +1,10 @@
+%oldchk=x8_13_nbo
+%chk=x8_13_cas
+#P CASSCF(4,4,NRoot=3,StateAverage)/6-31g(d) Geom=Check Guess=(Read,ForceAbelianSymmetry)
+
+Cyclopentadiene: First 2 excited states by State-Average CAS(4,4)
+
+0 1
+
+0.0 0.5 0.5
+

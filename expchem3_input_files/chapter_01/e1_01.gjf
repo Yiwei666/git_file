@@ -1,0 +1,36 @@
+%Chk=e1_01
+# APFD/6-31G(d) Opt Int=(UltraFine,Acc2E=12)
+
+FOOF Opt
+
+0 1
+ O                  0.00000000    0.00000000    0.00000000
+ O                  0.00000000    0.00000000    1.22000000
+ F                  1.47994714    0.00000000   -0.52407677
+ F                  0.06455439    1.47853856    1.74407677
+
+--link1--
+%Chk=e1_01
+# APFD/6-31+G(d) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+--link1--
+%Chk=e1_01
+# APFD/6-311G(d) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+--link1--
+%Chk=e1_01
+# APFD/6-311+G(d) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+--link1--
+%Chk=e1_01
+# APFD/6-311+G(2d) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+--link1--
+%Chk=e1_01
+# APFD/6-311+G(3d) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+--link1--
+%Chk=e1_01
+# APFD/6-311+G(3df) Opt Guess=Read Geom=AllCheck Int=(UltraFine,Acc2E=12)
+
+

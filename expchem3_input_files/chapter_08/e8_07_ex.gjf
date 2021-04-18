@@ -1,0 +1,7 @@
+%chk=e8_07_ex
+# OPT FREQ=SaveNormalModes TD(Read,root=1) CAM-B3LYP TZVP SCRF(Solvent=Cyclohexane) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+trans,trans-1,4-diphenyl-1,3-butadiene excited state opt freq
+
+0 1
+

@@ -1,0 +1,32 @@
+%Chk=x6_09_ethylCl
+# OPT FREQ APFd 6-31+G(d) SCRF(SMD,Solvent=DMSO) Geom=Connectivity
+
+Ethyl Chloride in DMSO (small basis set pre-opt)
+
+0 1
+ C                 -1.51743400    0.72358600    0.00000000
+ C                  0.00000000    0.86684800    0.00000000
+ Cl                 0.82652200   -0.84436400    0.00000000
+ H                 -1.86359500    0.18498900    0.88864900
+ H                 -1.86359500    0.18498900   -0.88864900
+ H                 -1.97945400    1.72209500    0.00000000
+ H                  0.38018800    1.35975100    0.89647100
+ H                  0.38018800    1.35975100   -0.89647100
+
+ 1 2 1.0 4 1.0 5 1.0 6 1.0
+ 2 7 1.0 8 1.0
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+
+--link1--
+%Chk=x6_09_ethylCl
+# OPT=ReadFC FREQ APFd 6-311+G(2d,p) SCRF(SMD,Solvent=DMSO) Geom=Checkpoint Guess=Read Int(UltraFine,Acc2E=12)
+
+Ethyl Chloride in DMSO
+
+0 1
+

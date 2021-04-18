@@ -1,0 +1,19 @@
+# B97d/6-311+g(2d,p) Integral(Grid=UltraFine,Acc2E=12)
+
+Argon Atom
+
+0 1
+Ar
+
+--Link1--
+# scan B97d/6-311+g(2d,p) Integral(Grid=UltraFine,Acc2E=12)
+
+Argon Dimer
+
+0 1
+Ar 
+Ar 1 R
+
+R 3.6 S 7 0.4
+
+

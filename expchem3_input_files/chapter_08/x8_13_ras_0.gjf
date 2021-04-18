@@ -1,0 +1,39 @@
+%oldchk=x8_13_nbo
+%chk=x8_13_ras_0
+#P CASSCF(14,14,RAS(1,5,1,5),NRoot=3,StateAverage)/6-31g(d) Geom=AllCheck 
+   Guess=(Read,Permute,ForceAbelianSymmetry)
+
+1-5,11-16,6-10,17-20,21-22,25,30-31
+
+0.0 0.5 0.5
+
+--link1--
+%Chk=x8_13_ras_0
+#P CASSCF(14,14,RAS(1,5,2,5),NRoot=3,StateAverage)/6-31g(d) Geom=AllCheck 
+   Guess=(Read,ForceAbelianSymmetry) Pop=NO SCF(Conver=6,MaxCycle=128)
+
+0.0 0.5 0.5
+
+--link1--
+%oldchk=x8_13_ras_0
+%chk=x8_13_ras_0_orbs_nroot3
+#P CASSCF(14,14,RAS(1,5,2,5),NRoot=3)/6-31g(d) Geom=AllCheck 
+   Guess=(Read,ForceAbelianSymmetry) IOp(5/7=-2)
+
+--link1--
+%chk=x8_13_ras_0_orbs_nroot3
+# Geom=AllCheck Guess=(Read,Only,Save,NaturalOrbitals) ChkBasis
+
+--link1--
+%oldchk=x8_13_ras_0
+%chk=x8_13_ras_0_orbs_nroot2
+#P CASSCF(14,14,RAS(1,5,2,5),NRoot=2)/6-31g(d) Geom=AllCheck 
+   Guess=(Read,ForceAbelianSymmetry) IOp(5/7=-2)
+
+--link1--
+%chk=x8_13_ras_0_orbs_nroot2
+# Geom=AllCheck Guess=(Read,Only,Save,NaturalOrbitals) ChkBasis
+
+
+
+

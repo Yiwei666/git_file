@@ -1,0 +1,20 @@
+%OldChk=x8_13_gs
+%Chk=x8_13_nbo
+# APFD/6-31G(d) Pop=(NBO,SaveMix) ExtraBasis Geom=Check
+
+Cyclopentadiene NBOs at CAS(4,4) GS geometry
+
+0 1
+
+4 6 8 10 0
+ P   3 0.5
+   .1727380000D+01   -.1779510000D-01
+   .5729220000D+00    .2535390000D+00
+   .2221920000D+00    .8006690000D+00
+ P   1 0.5
+   .7783690000D-01    .1000000000D+01
+****
+
+
+
+

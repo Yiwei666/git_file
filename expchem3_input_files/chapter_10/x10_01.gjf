@@ -1,0 +1,10 @@
+# RHF STO-3G IOp(3/33=1,5/33=3) GFprint Pop=Full
+
+water: printing Overlap, Fock, Density, and Core Hamiltonian Matrices
+
+0 1
+ O                  0.00000000    0.00000000   -0.13530057
+ H                 -0.00000000   -0.79068957    0.47691671
+ H                 -0.00000000    0.79068957    0.47691671
+
+

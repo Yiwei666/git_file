@@ -1,0 +1,5 @@
+%OldChk=x6_04_mig3TS
+%Chk=x6_04_mig3IRC
+# IRC(RCFC,MaxPoints=40,Step=20,Recorrect=Never,Phase=(5,1,2,6)) APFd 6-311+G(2d,p) Geom=AllCheck Guess=Read Int(Ultrafine,Acc2E=12)
+
+

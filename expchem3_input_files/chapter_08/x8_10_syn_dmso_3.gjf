@@ -1,0 +1,7 @@
+%chk=x8_10_syn_dmso_3
+# TD(Root=1,read) Opt Freq APFD/6-311+G(2d,p) SCRF(Solvent=DMSO) Geom=Check Guess=Read Int=(Ultrafine,Acc2E=12)
+
+Coumarin/syn/dmso: TD optimization
+
+0 1
+

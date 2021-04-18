@@ -1,0 +1,25 @@
+%Chk=x7_14
+# opt freq=(vcd,vibrot) 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12)
+output=pickett
+
+Prop-2-ynyl radical
+
+0 2
+ C                 -3.20860944    2.11143516    0.05528858
+ C                 -4.74860944    2.11137097    0.05528858
+ C                 -5.94980944    2.11132032    0.05528858
+ H                 -7.01980944    2.11127226    0.05528858
+ H                 -2.67364807    3.03810464    0.05528858
+ H                 -2.67357082    1.18481027    0.05528858
+
+ 1 2 1.0 5 1.0 6 1.0
+ 2 3 3.0
+ 3 4 1.0
+ 4
+ 5
+ 6
+
+--Link1--
+%Chk=x7_14
+# APFD/aug-cc-pVTZ Output=Pickett Guess=Read Geom=Allcheck Int=(UltraFine,Acc2E=12,FCMod1)
+

@@ -1,0 +1,22 @@
+%Chk=x2_13
+# HF/6-31++G(d,p) GFOldPrint GFInput
+
+Methanol 6-31++G(d,p) Basis Set Details
+
+   0   1
+ C
+ O,1,R2
+ H,1,R3,2,A3
+ H,1,R4,2,A4,3,D4
+ H,1,R4,2,A4,3,-D4
+ H,2,R6,1,A6,3,180.
+      Variables:
+ R2=1.399645
+ R3=1.081060
+ R4=1.087345
+ R6=0.946290
+ A3=107.159
+ A4=112.008
+ A6=109.406
+ D4=118.774
+

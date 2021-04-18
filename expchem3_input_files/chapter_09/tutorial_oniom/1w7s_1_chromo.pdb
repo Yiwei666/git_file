@@ -1,0 +1,24 @@
+TITLE      WILD-TYPE AEQUOREA VICTORIA GREEN FLUORESCENT PROTEIN
+REMARK    1 Chromophore only
+HETATM  478  C1  GYS A  66      17.279   1.091 105.756                       C
+HETATM  479  N2  GYS A  66      16.292   0.652 105.057                       N
+HETATM  480  CA2 GYS A  66      15.072   0.969 105.713                       C
+HETATM  481  C2  GYS A  66      15.478   1.663 106.900                       C
+HETATM  482  O2  GYS A  66      14.671   2.111 107.758                       O
+HETATM  483  N3  GYS A  66      16.860   1.725 106.906                       N
+HETATM  484  CA3 GYS A  66      17.393   2.020 108.109                       C
+HETATM  485  C   GYS A  66      17.997   3.331 108.112                       C
+HETATM  486  O   GYS A  66      18.190   3.885 109.334                       O
+HETATM  487  CA1 GYS A  66      18.672   0.781 105.505                       C
+HETATM  488  N   GYS A  66      19.105  -0.335 106.432                       N
+HETATM  489  CB1 GYS A  66      19.054   0.351 104.143                       C
+HETATM  490  OG1 GYS A  66      18.847   1.577 103.399                       O
+HETATM  491  CB2 GYS A  66      13.775   0.696 105.335                       C
+HETATM  492  CG2 GYS A  66      13.311   0.021 104.188                       C
+HETATM  493  CD1 GYS A  66      14.115  -0.543 103.135                       C
+HETATM  494  CD2 GYS A  66      11.922  -0.138 104.022                       C
+HETATM  495  CE1 GYS A  66      13.541  -1.208 102.014                       C
+HETATM  496  CE2 GYS A  66      11.338  -0.776 102.950                       C
+HETATM  497  CZ  GYS A  66      12.106  -1.300 101.963                       C
+HETATM  498  OH  GYS A  66      11.564  -1.942 100.880                       O
+END

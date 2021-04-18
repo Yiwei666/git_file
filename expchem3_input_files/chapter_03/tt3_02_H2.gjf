@@ -1,0 +1,52 @@
+%chk=TTT3_02_H2
+# FREQ APFd 6-311+G(2d,p) geom=connectivity
+
+H2
+
+ 0,1
+  H     0.000000000000      0.000000000000      0.372995342201
+  H     0.000000000000      0.000000000000     -0.372995342201
+
+ 1 2 1.000
+ 2 1 1.000
+ 
+--link1--
+%chk=TTT3_02_H2
+# freq=readfc APFd 6-311+G(2d,p) geom=checkpoint guess=read Temp=800
+
+H2
+
+0 1
+
+--link1--
+%chk=TTT3_02_H2
+# freq=readfc APFd 6-311+G(2d,p) geom=checkpoint guess=read Pressure=0.98697
+
+H2
+
+0 1
+
+--link1--
+%chk=TTT3_02_H2
+# freq=readfc APFd 6-311+G(2d,p) geom=checkpoint guess=read Temp=800 Pressure=0.98697
+
+H2
+
+0 1
+
+--link1--
+%chk=TTT3_02_H2
+# freq=readfc APFd 6-311+G(2d,p) geom=checkpoint guess=read Pressure=24.465
+
+H2
+
+0 1
+
+--link1--
+%chk=TTT3_02_H2
+# freq=readfc APFd 6-311+G(2d,p) geom=checkpoint guess=read Temp=800 Pressure=65.646
+
+H2
+
+0 1
+

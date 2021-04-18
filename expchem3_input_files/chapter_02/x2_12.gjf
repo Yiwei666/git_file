@@ -1,0 +1,44 @@
+# APFD/6-31G(d) Opt Int=(UltraFine,Acc2E=12)
+
+PO Optimized at APFD/6-31G(d)
+
+0 2
+ O                 -4.13828564    0.00924396    1.87117803
+ P                 -5.62828564    0.00924396    1.87117803
+
+--Link1--
+# APFD/6-311G(d) Opt Int=(UltraFine,Acc2E=12)
+
+PO Optimized at APFD/6-311G(d)
+
+0 2
+ O                 -4.13828564    0.00924396    1.87117803
+ P                 -5.62828564    0.00924396    1.87117803
+
+--Link1--
+# APFD/6-311G(2d) Opt Int=(UltraFine,Acc2E=12)
+
+PO Optimized at APFD/6-311G(2d)
+
+0 2
+ O                 -4.13828564    0.00924396    1.87117803
+ P                 -5.62828564    0.00924396    1.87117803
+
+--Link1--
+# APFD/6-311G(2df) Opt  Int=(UltraFine,Acc2E=12)
+
+PO Optimized at APFD/6-311G(2df)
+
+0 2
+ O                 -4.13828564    0.00924396    1.87117803
+ P                 -5.62828564    0.00924396    1.87117803
+
+--Link1--
+# APFD/6-311G(3df) Opt  Int=(UltraFine,Acc2E=12)
+
+PO Optimized at APFD/6-311G(3df)
+
+0 2
+ O                 -4.13828564    0.00924396    1.87117803
+ P                 -5.62828564    0.00924396    1.87117803
+

@@ -1,0 +1,12 @@
+%Chk=e5_05_hydroxide_ion_gas
+# opt freq apfd/6-311+g(2d,p) geom=connect Int=(Ultrafine,Acc2E=12)
+
+hydroxide ion in gas-phase
+
+-1 1
+ O                 -1.07862905    0.22177419    0.00000000
+ H                 -0.11862905    0.22177419    0.00000000
+
+ 1 2 1.0
+ 2
+

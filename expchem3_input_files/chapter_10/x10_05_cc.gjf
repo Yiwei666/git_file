@@ -1,0 +1,69 @@
+# opt freq CCSD(T) sto-3g
+
+Exercise 10.5: HCN Geometry and Frequencies
+
+0 1
+ C
+ X 1 1.0
+ H 1 R1 2 90.0
+ N 1 R2 2 90.0 3 180.0
+
+ R1=1.08
+ R2=1.15
+
+--Link1--
+# opt freq CCSD(T) cc-pVDZ
+
+Exercise 10.5: HCN Geometry and Frequencies
+
+0 1
+ C
+ X 1 1.0
+ H 1 R1 2 90.0
+ N 1 R2 2 90.0 3 180.0
+
+ R1=1.08
+ R2=1.15
+
+--Link1--
+# opt freq CCSD(T) cc-pVTZ
+
+Exercise 10.5: HCN Geometry and Frequencies
+
+0 1
+ C
+ X 1 1.0
+ H 1 R1 2 90.0
+ N 1 R2 2 90.0 3 180.0
+
+ R1=1.08
+ R2=1.15
+
+--Link1--
+# opt freq CCSD(T) cc-pVQZ
+
+Exercise 10.5: HCN Geometry and Frequencies
+
+0 1
+ C
+ X 1 1.0
+ H 1 R1 2 90.0
+ N 1 R2 2 90.0 3 180.0
+
+ R1=1.08
+ R2=1.15
+
+--Link1--
+# opt freq CCSD(T) cc-pV5Z
+
+Exercise 10.5: HCN Geometry and Frequencies
+
+0 1
+ C
+ X 1 1.0
+ H 1 R1 2 90.0
+ N 1 R2 2 90.0 3 180.0
+
+ R1=1.08
+ R2=1.15
+

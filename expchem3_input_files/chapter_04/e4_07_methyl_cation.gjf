@@ -1,0 +1,20 @@
+%Chk=e4_07_methyl_cation
+# opt freq APFD/6-311+g(2d,p) geom=connectivity Int=(UltraFine,Acc2E=12)
+
+Methyl Cation Opt Freq NMR
+
+1 1
+ C                 -0.39360024    1.41698806   -0.00475434
+ H                  0.14139008    0.49033529   -0.00475434
+ H                 -1.46360024    1.41699924   -0.00475434
+ H                  0.14140944    2.34362966   -0.00475434
+
+ 1 2 1.0 3 1.0 4 1.0
+ 2
+ 3
+ 4
+
+--link1--
+%Chk=e4_07_methyl_cation
+# nmr APFD/6-311+g(2d,p) geom=allcheck guess=read Int=(UltraFine,Acc2E=12)
+

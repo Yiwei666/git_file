@@ -1,0 +1,32 @@
+%Chk=x7_12_cl
+# apfd 6-311+g(2d,p) opt freq geom=connectivity Int=(UltraFine,Acc2E=12)
+
+Substituted oxirane: Cl
+
+0 1
+ C                 -0.45408871    0.03151610    0.74517601
+ C                 -0.52335787    0.02880801   -0.67971131
+ O                  0.72761302    0.63221855   -0.04857938
+ H                 -0.23473970   -0.88388503    1.25392622
+ H                 -1.16086012    0.56020456    1.35004186
+ H                 -1.13278229    0.81368562   -1.07653499
+ Cl                -0.84942307   -1.28295450   -1.80690278
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2 3 1.0 6 1.0 7 1.0
+ 3
+ 4
+ 5
+ 6
+ 7
+
+--Link1--
+%Chk=x7_12_cl
+# APFD 6-311++g(2d,2p) Polar=OptRot Int=(UltraFine,Acc2E=12) CPHF=RdFreq Geom=Check Guess=Read
+
+Substituted oxirane: Cl
+
+0 1
+
+633nm 589nm 578nm 546nm 436nm 365nm 355nm
+

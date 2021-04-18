@@ -1,0 +1,10 @@
+%oldchk=x8_12_pr
+%chk=x8_12_irc1
+# casscf(6,6)/6-31g(d) guess=read geom=check irc=(rcfc,recorrect=never)
+
+Benzene-Benzvalene photoisomerization.
+Path downhill from conical intersection lead to a saddle point.
+Quick IRC to determine nature of this saddle point.
+
+0 1
+

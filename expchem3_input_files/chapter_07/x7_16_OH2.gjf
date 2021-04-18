@@ -1,0 +1,24 @@
+%Chk=x7_16_OH2
+# opt freq=(vcd,vibrot) 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12)
+output=pickett
+
+AsOH2: Cs symmetry, not planar
+Built from GV's arsenic "Seesaw" and cleaned
+
+0 2
+ As                 0.15967737   -0.19174359    0.66257950
+ H                  1.16719096    0.51883204   -0.20925687
+ H                 -0.84787049   -0.90236253   -0.20918195
+ O                 -0.72031261    1.05601995    1.74221081
+
+ 1 2 1.0 3 1.0 4 1.0
+ 2
+ 3
+ 4
+
+--Link1--
+%Chk=x7_16_OH2
+# APFD/aug-cc-pVTZ Output=Pickett Guess=Read Geom=Allcheck Int=(Grid=399590,FCMod1,DKH,Acc2E=12)
+
+
+

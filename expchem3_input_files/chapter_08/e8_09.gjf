@@ -1,0 +1,29 @@
+%oldchk=x8_11
+%chk=e8_09
+# casscf(6,6)/sto-3g guess=(read,alter) geom=check
+
+CASSCF(6,6)/STO-3G to verify valid active space.
+
+0 1
+
+19,17
+
+--link1--
+%Chk=e8_09
+# casscf(6,6)/4-31G guess=read geom=check
+
+CASSCF Example: Benzene-Benzvalene photoisomerization.
+Projection STO-3G --> 4-31G
+
+0 1
+
+--link1--
+%Chk=e8_09
+# casscf(6,6)/6-31G(d) guess=read geom=check
+
+CASSCF Example: Benzene-Benzvalene photoisomerization.
+Projection 4-31G --> 6-31G(d)
+
+0 1
+
+

@@ -1,0 +1,12 @@
+%OldChk=x8_08_gs
+%Chk=x8_08_fc
+# FREQ(ReadFC,FC,ReadFCHT) Geom=Checkpoint NOSYMM
+
+all trans Ph-CH-CH-CH-CH-CH-CH-CH-CH-Ph FC simulation of UV absorption spectrum
+
+0 1
+
+SpecHwHm=600 SpecRes=20 InpDEner=0.113
+
+x8_08_ex.chk
+

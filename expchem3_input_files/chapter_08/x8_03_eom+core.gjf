@@ -1,0 +1,17 @@
+%OldChk=x8_03_eom_1
+%Chk=x8_03_eom_1+core
+# eomccsd(singlets,nstates=5,readamp,saveamp,window=(8,0)) int=(acc2e=12) geom=check guess=read aug-cc-pVTZ
+
+TiO2 EOM/aug-cc-pVTZ(8,0) // CCSD/aug-cc-pVTZ singlets
+
+0 1
+
+--link1--
+%Oldchk=x8_03_eom_3
+%chk=x8_03_eom_3+core
+# eomccsd(triplets,nstates=5,readamp,saveamp,window=(8,0)) int=(acc2e=12) geom=check guess=read aug-cc-pVTZ
+
+TiO2 EOM/aug-cc-pVTZ(8,0) // CCSD/aug-cc-pVTZ triplets
+
+0 1
+

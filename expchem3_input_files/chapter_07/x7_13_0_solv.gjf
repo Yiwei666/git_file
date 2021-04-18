@@ -1,0 +1,38 @@
+%Chk=x7_13_0_solv
+# opt freq 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12) scrf(solvent=acetonitrile)
+
+Epichlorohydrin 0 deg (gauche II) acetonitrile
+
+0 1
+ C                 -0.80842215   -0.12638039   -0.13715596
+ C                  0.63315106   -0.10925000   -0.10421611
+ O                 -0.14011068    1.22108731   -0.17738167
+ H                 -1.33263219   -0.53246117   -0.97691916
+ H                 -1.34963740   -0.35320779    0.75757047
+ H                  1.21367065   -0.39323097    0.74857449
+ C                  1.39400500   -0.43980800   -1.40168777
+ H                  0.83585548   -0.08487936   -2.24275541
+ H                  2.35271865    0.03500548   -1.38379066
+ Cl                 1.60468051   -2.18239804   -1.53051239
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2 3 1.0 6 1.0 7 1.0
+ 3
+ 4
+ 5
+ 6
+ 7 8 1.0 9 1.0 10 1.0
+ 8
+ 9
+ 10
+
+--Link1--
+%Chk=x7_13_0_solv
+# APFD 6-311++g(2d,2p) Polar=OptRot Int=(UltraFine,Acc2E=12) CPHF=RdFreq Geom=Check Guess=Read SCRF(Solvent=Acetonitrile)
+
+Epichlorohydrin 0 deg (gauche II) acetonitrile ORD
+
+0 1
+
+633nm 589.5nm 436nm 355nm 
+

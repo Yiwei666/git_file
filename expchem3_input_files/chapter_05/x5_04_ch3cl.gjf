@@ -1,0 +1,26 @@
+%Chk=x5_04_ch3cl
+# opt freq apfd/6-311+g(2d,p) geom=connectivity int=(ultrafine,acc2e=12)
+
+CH3Cl (gas phase)
+
+0 1
+ C                  0.00000000   -0.00000000    1.10961538
+ H                  0.00000000    1.00880567    1.46628205
+ H                  0.87365134   -0.50440284    1.46628205
+ H                 -0.87365134   -0.50440284    1.46628205
+ Cl                 0.00000000    0.00000000   -0.65038462
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2
+ 3
+ 4
+ 5
+
+--Link1--
+%Chk=x5_04_ch3cl
+# opt freq apfd/6-311+G(2d,p) scrf=(smd,solvent=water) geom=check guess=read int=(ultrafine,acc2e=12) 
+
+CH3Cl in water
+
+0 1
+

@@ -1,0 +1,38 @@
+%Chk=x7_09_acet_0
+# opt freq 6-311+g(2d,p) geom=connectivity apfd Int=(UltraFine,Acc2E=12) SCRF(Solvent=acetonitrile)
+
+(S)-epichlorhydrin: 0 degree conformer
+
+0 1
+ C                 -2.26622921   -1.72171871    0.01097410
+ C                 -0.84424068   -1.78928562    0.14287947
+ O                 -1.44935403   -0.41737747   -0.11497401
+ H                 -2.88263371   -1.81339949    0.88076725
+ H                 -2.76747266   -2.17357623   -0.81937510
+ H                 -0.28273277   -2.19239598   -0.67388911
+ C                 -0.14018629   -2.20399766    1.44822285
+ H                  0.86346780   -1.83309186    1.44550993
+ H                 -0.66905939   -1.79570087    2.28397818
+ Cl                -0.11650086   -3.95963332    1.56980586
+
+ 1 2 1.0 3 1.0 4 1.0 5 1.0
+ 2 3 1.0 6 1.0 7 1.0
+ 3
+ 4
+ 5
+ 6
+ 7 8 1.0 9 1.0 10 1.0
+ 8
+ 9
+ 10
+
+--Link1--
+%Chk=x7_09_acet_0
+# apfd spAug-cc-pvTZ Polar=ROA Geom=Check Guess=Read Int=(UltraFine,Acc2E=12) SCRF(Solvent=acetonitrile)
+
+(S)-epichlorhydrin: 0 degree conformer. ROA in acetonitrile
+
+0 1
+
+532nm
+

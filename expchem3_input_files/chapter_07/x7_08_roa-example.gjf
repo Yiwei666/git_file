@@ -1,0 +1,10 @@
+%OldChk=chkpt_from_freq
+%Chk=x7_08_roa-example
+#P APFD spAug-cc-pVTZ Polar=ROA Int=(UltraFine,Acc2E=12) Guess=Read Geom=Check SCRF(Solvent=Water)
+
+ROA
+
+0 1
+
+532nm
+

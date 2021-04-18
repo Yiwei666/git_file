@@ -1,0 +1,49 @@
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000000500) IOp(3/77=0950009500) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12)
+
+Methane using a one-parameter hybridization of the Becke-Roussel 1989 functional
+
+0 1
+ C                 -0.00000000   -0.00000000   -0.00000000
+ H                  0.00000000    0.00000000    1.07000000
+ H                 -0.00000000   -1.00880567   -0.35666667
+ H                 -0.87365134    0.50440284   -0.35666667
+ H                  0.87365134    0.50440284   -0.35666667
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000001000) IOp(3/77=0900009000) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000001500) IOp(3/77=0850008500) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000002000) IOp(3/77=0800008000) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000002500) IOp(3/77=0750007500) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000003000) IOp(3/77=0700007000) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000003500) IOp(3/77=0650006500) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+--Link1--
+%Chk=x10_04_methane
+#P Opt BRxBRc 6-311+g(2d,p) IOp(3/76=1000004000) IOp(3/77=0600006000) IOp(3/78=1000010000)
+   Integral(Grid=UltraFine,Acc2E=12) Geom=AllCheck Guess=Read
+
+

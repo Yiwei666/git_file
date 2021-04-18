@@ -1,0 +1,9 @@
+%Chk=x2_09_ClH
+# APFD/6-311+G(2d,p) Opt Freq Int=(UltraFine,Acc2E=12)
+
+ClH Opt Freq
+
+0 1
+ Cl                -0.71174372   -0.23131672    0.00000000
+ H                 -2.00174372   -0.23131672    0.00000000
+

@@ -1,0 +1,13 @@
+%Chk=e6_10
+# scan APFD/6-311+g(2d,p)  Int=(UltraFine,Acc2E=12)
+
+Ozone <-> O3 PES Scan
+
+0 1
+ O              
+ O                  1    R
+ O                  2    R    1  A
+
+R 1.0 8 0.05
+A 55.0 14 5.0
+

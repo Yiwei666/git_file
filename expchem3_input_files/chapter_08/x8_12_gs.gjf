@@ -1,0 +1,8 @@
+%oldchk=e8_09  ! could also use results from e8_10_cas.chk
+%chk=x8_12_gs
+# casscf(6,6)/6-31g(d) guess=read geom=check opt freq
+
+Optimization+frequency calculation on ground state (S0) of benzene
+
+0 1
+

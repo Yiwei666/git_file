@@ -1,0 +1,11 @@
+%chk=e8_07_gs
+# FREQ(ReadFC,FC,ReadFCHT) Geom=Checkpoint NOSYMM
+
+trans,trans-1,4-diphenyl-1,3-butadiene FC simulation of UV absorption spectrum
+
+0 1
+
+SpecHwHm=600 SpecRes=20 InpDEner=0.133
+
+e8_07_ex.chk
+

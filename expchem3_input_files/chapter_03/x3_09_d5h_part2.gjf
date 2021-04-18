@@ -1,0 +1,9 @@
+%OldChk=x3_09_d5h_2
+%Chk=x3_09_d5h_3
+# opt=readfc freq b3lyp/6-31g(d) geom=(check,newdefinition) guess=read
+
+full opt of decamethylzincocene (D5h): eta5,eta5
+
+0 1
+
+

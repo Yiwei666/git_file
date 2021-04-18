@@ -1,0 +1,87 @@
+TITLE      WILD-TYPE AEQUOREA VICTORIA GREEN FLUORESCENT PROTEIN
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1  C1  GYS A  66      17.279   1.091 105.756                       C
+HETATM    2  N2  GYS A  66      16.292   0.652 105.057                       N
+HETATM    3  CA2 GYS A  66      15.072   0.969 105.713                       C
+HETATM    4  C2  GYS A  66      15.478   1.663 106.900                       C
+HETATM    5  O2  GYS A  66      14.671   2.111 107.758                       O
+HETATM    6  N3  GYS A  66      16.860   1.725 106.906                       N
+HETATM    7  CA3 GYS A  66      17.393   2.020 108.109                       C
+HETATM    8  C   GYS A  66      17.997   3.331 108.112                       C
+HETATM    9  O   GYS A  66      18.243   4.002 109.351                       O
+HETATM   10  CA1 GYS A  66      18.672   0.781 105.505                       C
+HETATM   11  N   GYS A  66      19.105  -0.335 106.432                       N
+HETATM   12  CB1 GYS A  66      19.054   0.351 104.143                       C
+HETATM   13  OG1 GYS A  66      18.847   1.577 103.399                       O
+HETATM   14  CB2 GYS A  66      13.775   0.696 105.335                       C
+HETATM   15  CG2 GYS A  66      13.311   0.021 104.188                       C
+HETATM   16  CD1 GYS A  66      14.115  -0.543 103.135                       C
+HETATM   17  CD2 GYS A  66      11.922  -0.138 104.022                       C
+HETATM   18  CE1 GYS A  66      13.541  -1.208 102.014                       C
+HETATM   19  CE2 GYS A  66      11.338  -0.776 102.950                       C
+HETATM   20  CZ  GYS A  66      12.106  -1.300 101.963                       C
+HETATM   21  OH  GYS A  66      11.564  -1.942 100.880                       O
+HETATM   22  HD1 GYS A  66      15.180  -0.460 103.197                       H
+HETATM   23  HD2 GYS A  66      11.279   0.263 104.777                       H
+HETATM   24  HE1 GYS A  66      14.153  -1.623 101.240                       H
+HETATM   25  HE2 GYS A  66      10.273  -0.859 102.896                       H
+HETATM   26  HH  GYS A  66      10.607  -1.950 100.959                       H
+HETATM   27  HA3 GYS A  66      18.139   1.291 108.349                       H
+HETATM   28  HA1 GYS A  66      19.155   1.723 105.662                       H
+HETATM   29 1HB1 GYS A  66      20.099   0.123 104.139                       H
+HETATM   30 2HB1 GYS A  66      18.346  -0.376 103.804                       H
+HETATM   31  H   GYS A  66      13.016   1.044 106.004                       H
+HETATM   32  H   GYS A  66      16.622   1.989 108.850                       H
+HETATM   33  H   GYS A  66      19.697   1.958 103.168                       H
+HETATM   35  H   GYS A  66      18.350  -0.979 106.553                       H
+HETATM   36  C           0      18.376   4.007 106.781                       C
+HETATM   37  H           0      19.194   3.481 106.335                       H
+HETATM   38  H           0      17.536   3.988 106.119                       H
+HETATM   39  H           0      18.663   5.021 106.966                       H
+HETATM   40  C           0      20.258  -1.036 105.850                       C
+HETATM   41  H           0      20.988  -0.320 105.532                       H
+HETATM   42  H           0      20.690  -1.684 106.584                       H
+HETATM   43  H           0      19.937  -1.614 105.009                       H
+END
+CONECT    1    2   10    6
+CONECT    2    1    3
+CONECT    3    2   14    4
+CONECT    4    3    5    6
+CONECT    5    4
+CONECT    6    1    4    7
+CONECT    7    6    8   27   32
+CONECT    8    7    9   36
+CONECT    9    8
+CONECT   10    1   11   12   28
+CONECT   11   10   35   40
+CONECT   12   10   13   29   30
+CONECT   13   12   33
+CONECT   14    3   15   31
+CONECT   15   14   16   17
+CONECT   16   15   18   22
+CONECT   17   15   19   23
+CONECT   18   16   20   24
+CONECT   19   17   20   25
+CONECT   20   18   19   21
+CONECT   21   20   26
+CONECT   22   16
+CONECT   23   17
+CONECT   24   18
+CONECT   25   19
+CONECT   26   21
+CONECT   27    7
+CONECT   28   10
+CONECT   29   12
+CONECT   30   12
+CONECT   31   14
+CONECT   32    7
+CONECT   33   13
+CONECT   35   11
+CONECT   36   37   38   39    8
+CONECT   37   36
+CONECT   38   36
+CONECT   39   36
+CONECT   40   41   42   43   11
+CONECT   41   40
+CONECT   42   40
+CONECT   43   40

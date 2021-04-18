@@ -1,0 +1,21 @@
+%chk=x6_04_mig2IRC.chk
+# IRC(CalcFC,MaxPoints=40,Step=20,Recorrect=Never,phase=(5,1,2,3)) APFd 6-311+G(2d,p) Geom=Connectivity Int(Ultrafine,Acc2E=12)
+
+Silane + Si+ PES: IRC H migration reaction 2 ([H2Si...H...SiH]+ -> [H2Si-SiH2]+)
+[H migration TS from bridged structure]
+
+1 2
+ Si                 1.07553100    0.03976300   -0.05527100
+ Si                -1.15696200   -0.08376600   -0.06738300
+ H                 -0.54870600   -0.51880700    1.30348000
+ H                 -1.96394800    1.14946200    0.08105700
+ H                  1.84415400    1.22723400    0.38390600
+ H                  1.80854600   -1.24184300   -0.05128600
+
+ 1 2 1.0 5 1.0 6 1.0
+ 2 4 1.0
+ 3
+ 4
+ 5
+ 6
+

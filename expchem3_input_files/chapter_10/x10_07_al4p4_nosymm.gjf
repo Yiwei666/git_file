@@ -1,0 +1,27 @@
+%Chk=x10_07_al4p4_nosymm
+# APFD/6-311+G(2d,p) SCF=Tight Int=SG1 NoSymm 
+ 
+Al4P4
+
+0,1
+ Al                 0.00000000    0.00000000    1.67740000
+ Al                 1.58146789    0.00000000   -0.55913332
+ Al                -0.79073395   -1.36959137   -0.55913332
+ Al                -0.79073395    1.36959137   -0.55913332
+ P                  0.00000000    0.00000000   -2.30855000
+ P                 -2.17652182    0.00000000    0.76951664
+ P                  1.08826091   -1.88492319    0.76951664
+ P                  1.08826091    1.88492319    0.76951664
+ 
+--Link1--
+%Chk=x10_07_al4p4_nosymm
+# APFD/6-311+G(2d,p) Int=FineGrid SCF=Tight Guess=Read Geom=AllCheck NoSymm
+
+--Link1--
+%Chk=x10_07_al4p4_nosymm
+# APFD/6-311+G(2d,p) Int=UltraFine SCF=Tight Guess=Read Geom=AllCheck NoSymm
+
+--Link1--
+%Chk=x10_07_al4p4_nosymm
+# APFD/6-311+G(2d,p) Int=SuperFine SCF=Tight Guess=Read Geom=AllCheck NoSymm
+

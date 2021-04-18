@@ -1,0 +1,14 @@
+%oldchk=e8_03_xs
+%chk=e8_03_nto_1
+# ChkBasis guess=(only,read) pop=(savento) geom=allcheck density=(check,transition=1)
+
+--link1--
+%oldchk=e8_03_xs
+%chk=e8_03_nto_7
+# ChkBasis guess=(only,read) pop=(savento) geom=allcheck density=(check,transition=7)
+
+--link1--
+%oldchk=e8_03_xs
+%chk=e8_03_nto_14
+# ChkBasis guess=(only,read) pop=(savento) geom=allcheck density=(check,transition=14)
+

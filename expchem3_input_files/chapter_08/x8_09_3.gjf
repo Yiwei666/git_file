@@ -1,0 +1,16 @@
+%chk=x8_09_3
+# APFD/6-311+G(2d,p) TD=(Read,NStates=6,Root=1) SCRF=(Solvent=Ethanol) Opt Freq
+  Int=(Ultrafine,Acc2E=12)
+
+Acetaldehyde: excited state opt
+Modify GS geometry to break Cs symmetry since first excited state is A"
+
+0 1
+C        0.024726    0.008884    0.014865
+C        0.005163   -0.003439    1.506992
+O        0.986304    0.028879    2.212740
+H        1.037685   -0.028616   -0.385348
+H       -0.548257   -0.853956   -0.341021
+H       -0.527734    0.881881   -0.348621
+H       -1.002341   -0.033633    1.969922
+

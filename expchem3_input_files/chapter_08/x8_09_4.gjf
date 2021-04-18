@@ -1,0 +1,25 @@
+%oldchk=x8_09_3
+%chk=x8_09_4
+# APFD/6-311+G(2d,p) TD=(Read,NStates=6,Root=1) Geom=Check Guess=Read
+  SCRF=(Solvent=Ethanol,ExternalIteration,Read)
+  Int=(Ultrafine,Acc2E=12)
+
+Acetaldehyde: prepare for non-eq solvation emission
+by saving the solvent reaction field from the excited state using the EI method
+
+0 1
+
+NonEq=write
+
+--link1--
+%chk=x8_09_4
+# APFD/6-311+G(2d,p) SCRF=(Solvent=Ethanol,Read) Geom=Check Guess=Read
+  Int=(Ultrafine,Acc2E=12)
+
+Acetaldehyde: read solvent reaction field from excited state and
+compute energy of the ground state with non-eq solvation
+
+0 1
+
+NonEq=read
+
